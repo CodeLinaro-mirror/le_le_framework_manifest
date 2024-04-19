@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote fetch="https://git.codelinaro.org/clo/ype" name="clo-ype" review="null"/>
+  <remote fetch="https://git.codelinaro.org" name="clo" review="codelinaro.org"/>
+  <default remote="clo" revision="refs/heads/LE.FRAMEWORK.2.0.r1"/>
+  <project name="clo/le/OTA/build" path="src/OTA/build" revision="1234c5f6d49edf1c0424425679ca13c450f83ac2" upstream="refs/heads/le-ota.lnx.2.0.r3-rel"/>
+  <project name="clo/le/OTA/device/qcom/common" path="src/OTA/device/qcom/common" revision="81040494fb50fdfd07305453970b59c143f0161c" upstream="refs/heads/le-ota.lnx.2.0.r3-rel"/>
+  <project name="clo/le/OTA/external/bsdiff" path="src/OTA/external/bsdiff" revision="9f99910d6e82e2845b4500828ea56c13986ac32e" upstream="refs/heads/le-ota.lnx.2.0.r3-rel"/>
+  <project name="clo/le/OTA/platform/external/libdivsufsort" path="src/OTA/external/libdivsufsort" revision="70a94c7454df52eefe5da0a3cd1c10952742d3e6" upstream="refs/heads/le-ota.lnx.2.0.r3-rel"/>
+  <project name="clo/le/OTA/recovery" path="src/OTA/recovery" revision="053b6343d4af8df871dc428b7c39f1d4491e880c" upstream="refs/heads/le-ota.lnx.2.0.r3-rel"/>
+  <project name="clo/le/OTA/system/core" path="src/OTA/system/core" revision="899c79698131ee9aefeb3a5bfe93e1fe509a2418" upstream="refs/heads/le-ota.lnx.2.0.r3-rel"/>
+  <project name="clo/le/OTA/system/extras" path="src/OTA/system/extras" revision="4814452eebac0b1991fb80f634536d7a6130ef5f" upstream="refs/heads/le-ota.lnx.2.0.r3-rel"/>
+  <project name="clo/ype/external/openembedded.org/meta-openembedded" path="poky/meta-openembedded" revision="c1ea8e483f2e3ce86a2a0e55055da3dc10faf6c1" upstream="refs/heads/oe-meta-openembedded.lnx.3.0.r22-rel"/>
+  <project name="external/yoctoproject.org/poky" path="poky" remote="clo-ype" revision="d8d6d921fad14b82167d9f031d4fca06b5e01883" upstream="refs/heads/yocto/kirkstone"/>
+  <project name="clo/le/meta-qti-bsp" path="poky/meta-qti-bsp" revision="7f068d73bb628233b0fea9a4631ec35d8c5ebb34" upstream="refs/heads/yocto.lnx.5.0.r1-rel"/>
+  <project name="clo/le/meta-qti-distro" path="poky/meta-qti-distro" revision="89e6de956863cac632a10dec39d0223c5ffb37bd" upstream="refs/heads/yocto.lnx.5.0.r1-rel"/>
+  <project name="clo/le/meta-qti-sepolicy" path="poky/meta-qti-sepolicy" revision="5f67f10de5976ccdbddd41857365d1ab3d097c09" upstream="refs/heads/le-sepolicy.lnx.5.0.r1-rel"/>
+  <project name="clo/le/meta-selinux" path="poky/meta-selinux" revision="3e362031332a59e7592f9a8e3b052c81586ac8a4" upstream="refs/heads/le-sepolicy.lnx.5.0.r1-rel"/>
+  <project name="clo/le/platform/external/safe-iop" path="src/external/safe-iop" revision="aa0725fb1da35e47676b6da30009322eb5ed59be" upstream="refs/heads/le-blast.lnx.2.0.r3-rel"/>
+  <project name="clo/le/platform/system/core" path="src/system/core" revision="e142553d2b9c3b812a378b1493c203a81e995ff5" upstream="refs/heads/le-blast.lnx.2.0.r3-rel"/>
+  <project name="clo/le/platform/system/extras" path="src/system/extras" revision="49336b80cd9df3837e674cd70eaeb080d765ec07" upstream="refs/heads/le-blast.lnx.2.0.r3-rel"/>
+  <project name="clo/le/platform/system/memory_repo" path="src/system/memory" revision="ee1163c598ba2a1a0c0f53b97b3e063665695817" upstream="refs/heads/memory-le-apps.lnx.1.0.r29-rel"/>
+  <project name="clo/le/platform/system/memory/libdmabufheap" path="src/system/memory/libdmabufheap" revision="0a25ca9e3d095d83bd3f8de3ed1740e304a18861" upstream="refs/heads/memory-le-apps.lnx.1.0.r29-rel"/>
+  <project name="clo/le/platform/system/memory/libmeminfo" path="src/system/memory/libmeminfo" revision="e5690f41db4637600d40b74d7eb8207837edfb85" upstream="refs/heads/memory-le-apps.lnx.1.0.r29-rel"/>
+  <project name="clo/le/platform/vendor/qcom-opensource/le-framework" path="src/frameworks" revision="9699c43458e5a951a23df72d03f7c7991e91a054" upstream="refs/heads/le-frameworks.lnx.3.0.r4-rel"/>
+  <project name="clo/le/qc/components/le-blast.lnx/oe-recipes-oss" path="poky/meta-qti-bsp/recipes-blast" revision="6976fe6643c90102d3661e2315e48cda941b3d34" upstream="refs/heads/le-blast.lnx.2.0.r3-rel"/>
+  <project name="clo/le/qc/components/le-frameworks.lnx/oe-recipes-oss" path="poky/meta-qti-bsp/recipes-frameworks" revision="0a027322cd94df24e94f981caeb49dc80f3c6c2e" upstream="refs/heads/le-frameworks.lnx.3.0.r4-rel"/>
+  <project name="clo/le/qti-conf" path="poky/qti-conf" revision="61d252db1c1bfccc9303a7f12ca19ff34a874575" upstream="refs/heads/yocto.lnx.5.0.r1-rel">
+    <linkfile dest="setup-environment" src="set_bb_env.sh"/>
+  </project>
+</manifest>
