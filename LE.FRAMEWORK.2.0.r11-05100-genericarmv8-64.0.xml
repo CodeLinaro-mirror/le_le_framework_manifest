@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <remote fetch="https://git.codelinaro.org/clo/le" name="clo-le"/>
-  <remote fetch="https://git.codelinaro.org/clo/ype" name="clo-ype"/>
+    <remote fetch="https://git.codelinaro.org/clo/le" name="clo-le"/>
+    <remote fetch="https://git.codelinaro.org/clo/ype" name="clo-ype"/>
   <default remote="clo-le" revision="dummy_revision" sync-c="true" sync-tags="false"/>
   <project remote="clo-ype" name="external/openembedded.org/meta-openembedded" path="poky/meta-openembedded" revision="9cf4ebeb3de524009a73f49722489dc4aa183adb" upstream="refs/heads/oe-meta-openembedded.lnx.4.0.r15-rel"/>
   <project remote="clo-ype" name="external/yoctoproject.org/poky" path="poky" revision="6bd3969d32730538608e680653e032e66958fe84" upstream="refs/heads/yocto-upstream.lnx.5.0.r17-rel"/>
