@@ -1,8 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <remote fetch="https://git.codelinaro.org/clo/le" name="clo-le"/>
-  <remote fetch="https://git.codelinaro.org/clo/ype" name="clo-ype"/>
+    <remote fetch="https://git.codelinaro.org/clo/le" name="clo-le"/>
+    <remote fetch="https://git.codelinaro.org/clo/ype" name="clo-ype"/>
   <default remote="clo-le" revision="dummy_revision" sync-c="true" sync-tags="false"/>
+  <project remote="clo-le" name="qti-conf" path="poky/qti-conf" revision="daf93b207ffa27ad2823eecf5f758d965e244b50" upstream="refs/heads/yocto.lnx.5.0.r15-rel">
+    <linkfile dest="setup-environment" src="set_bb_env.sh"/>
+  </project>
   <project remote="clo-ype" name="external/openembedded.org/meta-openembedded" path="poky/meta-openembedded" revision="9cf4ebeb3de524009a73f49722489dc4aa183adb" upstream="refs/heads/oe-meta-openembedded.lnx.4.0.r15-rel"/>
   <project remote="clo-ype" name="external/yoctoproject.org/poky" path="poky" revision="6bd3969d32730538608e680653e032e66958fe84" upstream="refs/heads/yocto-upstream.lnx.5.0.r17-rel"/>
   <project remote="clo-le" name="meta-qti-bsp" path="poky/meta-qti-bsp" revision="04e78f728eecbfc9712f63968237c15b87551a9b" upstream="refs/heads/yocto.lnx.5.0.r15-rel"/>
@@ -25,7 +28,4 @@
   <project remote="clo-le" name="platform/vendor/qcom-opensource/le-framework" path="src/frameworks" revision="d6a59654d0b1319be73f90ae66971c02ae885ddd" upstream="refs/heads/le-frameworks.lnx.3.0.r17-rel"/>
   <project remote="clo-le" name="qc/components/le-blast.lnx/oe-recipes-oss" path="poky/meta-qti-bsp/recipes-blast" revision="9ae690e055820bfcb7ce24aef33455b388fcc270" upstream="refs/heads/le-blast.lnx.2.0.r17-rel"/>
   <project remote="clo-le" name="qc/components/le-frameworks.lnx/oe-recipes-oss" path="poky/meta-qti-bsp/recipes-frameworks" revision="f6be48728e8d0ae1397fcaaa830fe2c6e84e1053" upstream="refs/heads/le-frameworks.lnx.3.0.r17-rel"/>
-  <project remote="clo-le" name="qti-conf" path="poky/qti-conf" revision="daf93b207ffa27ad2823eecf5f758d965e244b50" upstream="refs/heads/yocto.lnx.5.0.r15-rel">
-    <linkfile dest="setup-environment" src="set_bb_env.sh"/>
-  </project>
 </manifest>
