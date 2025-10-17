@@ -19,7 +19,7 @@
   <project remote="clo-le" name="platform/external/safe-iop" path="src/external/safe-iop" revision="aa0725fb1da35e47676b6da30009322eb5ed59be" upstream="refs/heads/le-blast.lnx.2.0.r17-rel"/>
   <project remote="clo-le" name="platform/system/core" path="src/system/core" revision="0a9b6b8b4b893c7a5d35f6cda26c23c254cbf11c" upstream="refs/heads/le-blast.lnx.2.0.r17-rel"/>
   <project remote="clo-le" name="platform/system/extras" path="src/system/extras" revision="7bb1562c9eba8fc68f8c0e0f5d0f7c08f3dfc4dc" upstream="refs/heads/le-blast.lnx.2.0.r17-rel"/>
-  <project remote="clo-le" name="platform/system/memory" path="src/system/memory" revision="ee1163c598ba2a1a0c0f53b97b3e063665695817" upstream="refs/heads/memory-le-apps.lnx.1.0.r59-rel"/>
+  <project remote="clo-le" name="platform/system/memory_repo" path="src/system/memory" revision="ee1163c598ba2a1a0c0f53b97b3e063665695817" upstream="refs/heads/memory-le-apps.lnx.1.0.r59-rel"/>
   <project remote="clo-le" name="platform/system/memory/libdmabufheap" path="src/system/memory/libdmabufheap" revision="c4944ad6ba34dba200a4f127b43e2c94e109fb99" upstream="refs/heads/memory-le-apps.lnx.1.0.r59-rel"/>
   <project remote="clo-le" name="platform/system/memory/libmeminfo" path="src/system/memory/libmeminfo" revision="e5690f41db4637600d40b74d7eb8207837edfb85" upstream="refs/heads/memory-le-apps.lnx.1.0.r59-rel"/>
   <project remote="clo-le" name="platform/vendor/qcom-opensource/le-framework" path="src/frameworks" revision="d6a59654d0b1319be73f90ae66971c02ae885ddd" upstream="refs/heads/le-frameworks.lnx.3.0.r17-rel"/>
